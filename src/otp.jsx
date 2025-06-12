@@ -21,7 +21,7 @@ const OtpVerification = () => {
   };
 
   const handleVerify = () => {
-    alert(`Verifying OTP: ${otp.join("")}`);
+    alert(`Verifying demo -otp: ${otp.join("")}`);
   };
 
   const handleResend = () => {
