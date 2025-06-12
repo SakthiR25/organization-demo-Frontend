@@ -1,0 +1,81 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 4px 8px;
+    width: fit-content;
+}
+
+.search-input {
+    width: 30rem;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+    box-shadow: none;
+}
+
+.search-button {
+    background: black;
+    border: none;
+    border-radius: 999px;
+    margin-left: 8px;
+    padding: 0 24px;
+}
+
+.pill-nav {
+    margin-top: 32px;
+    background-color: #fff;
+    border-radius: 999px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pill {
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pill.active {
+    background-color: black;
+    color: white;
+}
+
+
+.Heart {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  color: #808080;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4px;
+  
+}
+.header{
+background: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0;
+background-color: rgb(218 218 218 / 16%);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 10;
+height: 80;
+}
+
+

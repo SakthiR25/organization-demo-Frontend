@@ -1,0 +1,61 @@
+.Addproduct {
+    background: black;
+}
+
+.Heartbtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  color: #808080;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4px;
+  
+}
+
+button:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.allproduct{
+    margin-bottom: 16;
+    color: #808080;
+    font-weight: 400;
+}
+
+
+.custom-search-input .ant-input   {
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  border-radius: 32px;
+}
+
+
+.custom-search-input .ant-btn {
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  border-radius: 32px;
+}
+
+.loading{
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgba(255, 255, 255, 0.8);
+z-index: 9999;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+

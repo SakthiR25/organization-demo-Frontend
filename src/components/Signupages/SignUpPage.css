@@ -1,0 +1,65 @@
+.signin-container {
+  height: 100vh;
+  overflow: hidden;
+  width: 95rem;
+}
+
+.left-panel {
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.form-wrapper {
+  max-width: 393px;
+  width: 100%;
+}
+
+
+.form {
+  margin-top: 24px;
+}
+.signintext{
+  margin-left: 1rem;
+}
+
+.subtext{
+  margin-left: 4rem;
+  align-items: center;
+}
+.verifybtn{
+  background: black;
+  height: 46px;
+}
+.verifybtn:hover {
+  background-color: black !important;
+}
+.verifytxt{
+  line-height: 70px;
+  margin-left: 12px;
+  color: #333333;
+}
+.inputs{
+  height: 46px;
+}
+
+.my-otp-input input{
+    background-color: #F2F2F2 !important;
+    font-size: 25px;
+    width: 50px;
+}
+
+.resend{
+  border: none;
+}
